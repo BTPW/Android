@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BTPW</string>
+    <string name="btpw_logo">BTPW Logo</string>
+    <string name="login">Login</string>
 </resources>
