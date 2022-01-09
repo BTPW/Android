@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path android:name="topSquiggle"
+        android:pathData="M32,0L25,0L50,35L75,0L68,0L50,25"
+        android:fillColor="@color/colorLogoPrimary" />
+
+    <path android:name="middleSquiggle"
+        android:pathData="M57.5,35L37.5,50L57.5,65L57.5,62L41.5,50L57.5,38"
+        android:fillColor="@color/colorLogoSecondary" />
+
+    <path android:name="bottomSquiggle"
+        android:pathData="M32,100L25,100L50,65L75,100L68,100L50,75"
+        android:fillColor="@color/colorLogoPrimary" />
+</vector>
