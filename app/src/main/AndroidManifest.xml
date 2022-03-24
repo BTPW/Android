@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".SplashActivity"
+        <activity android:name=".LoginActivity"
             android:exported="true"
-            android:theme="@style/Theme.MyApplication">
+            android:theme="@style/Theme.MyApplication"
+            android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,8 +20,10 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".PasswordListActivity" />
+        <activity android:name=".SplashActivity"
+            android:windowSoftInputMode="adjustResize" />
+        <activity android:name=".PasswordListActivity"
+            android:windowSoftInputMode="adjustResize" />
         <service android:name=".service.RemoteSyncService" android:exported="false" />
     </application>
 
